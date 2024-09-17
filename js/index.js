@@ -1,1 +1,3 @@
-console.log("Hello, World!")
+console.log("Hello, World!");
+const messageElement = document.getElementById('message');
+messageElement.textContent = "Hello, World!";
